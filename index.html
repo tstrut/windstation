@@ -508,10 +508,10 @@ function toDisplay(ms){ return unit==='ms' ? ms : ms*3.6; }
 function unitLabel(){ return unit==='ms' ? 'm/s' : 'km/h'; }
 
 // ===================== GAUGE CONFIG =====================
-let gCfg = {maxMS:30, dec:1};
+let gCfg = {maxMS:25, dec:1};
 let zones = [
-  {end:.33, color:'#00e676'},
-  {end:.66, color:'#ffd700'},
+  {end:.55, color:'#00e676'},
+  {end:.80, color:'#ffd700'},
   {end:1.0, color:'#ff4444'},
 ];
 function applyGaugeCfg(){
